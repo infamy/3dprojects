@@ -1,5 +1,5 @@
 hookwidth = 66;		// witdh of hook
-hookthick = 5;		// thickness of part
+hookthick = 4;		// thickness of part
 hooktop = 75;		// length of top we hang on
 hooklatch = 100;		// length of overhang latch (twice as long on hanger side)
 hookfront = 125;
