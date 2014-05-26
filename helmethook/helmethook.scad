@@ -1,9 +1,9 @@
 hookwidth = 66;		// witdh of hook
 hookthick = 4;		// thickness of part
-hooktop = 75;		// length of top we hang on
+hooktop = 44;		// length of top we hang on
 hooklatch = 100;		// length of overhang latch (twice as long on hanger side)
-hookfront = 125;
-hookback = 75;
+hookfront = 60;
+hookback = 50;
 hooktip = 25;
 
 rotate ([90,0,0]) union () 
