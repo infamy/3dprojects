@@ -1,18 +1,18 @@
 hookwidth = 66;		// witdh of hook
-hookthick = 4;		// thickness of part
-hooktop = 44;		// length of top we hang on
+hookthick = 5;		// thickness of part
+hooktop = 50;		// length of top we hang on
 hooklatch = 100;		// length of overhang latch (twice as long on hanger side)
 hookfront = 60;
 hookback = 50;
-hooktip = 25;
+hooktip = 10;
 
 rotate ([90,0,0]) union () 
 {
-	cube ([hooktop,hookwidth,hookthick]);
+	cube ([hooktop + hookthick,hookwidth,hookthick]);
 	rotate ([0,90,0]) cube ([hookback,hookwidth,hookthick]);
 	rotate ([0,90,0]) 
 		{
-			translate ([-hookthick,0,hooktop]) 
+			translate ([-hookthick,0,hooktop + hookthick]) 
 				{
 					union ()
 						{
