@@ -1,3 +1,5 @@
+$fa = 1;
+
 difference() {
     union() {
         cylinder(h=10,d=50);
